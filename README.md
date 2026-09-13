@@ -7,8 +7,6 @@ A small educational proof-of-concept in C demonstrating two classic Windows proc
 
 The payloads are intentionally benign: they append a line to `%TEMP%\injection_demo_marker.txt` and (unless silent mode is set) show a `MessageBox`. There is no shellcode, persistence, or evasion logic.
 
-> **Authorized use only.** This is for security education, authorized red-team labs, and defensive research. Do not use it against systems you do not own or have permission to test. Do not target online games or third-party software; that violates terms of service and anti-cheat will ban you.
-
 ---
 
 ## Techniques
